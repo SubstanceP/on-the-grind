@@ -1,6 +1,6 @@
 {
-  "name": "capsule",
-  "description": "Ecommerce site for Capsule Corp or Corpse",
+  "name": "on-the-grind",
+  "description": "Ecommerce site for otg and brand development",
   "version": "1.0.0",
   "engines": {
     "node": "^12.7.3",

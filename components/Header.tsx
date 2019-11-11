@@ -9,10 +9,12 @@ import {soundcloud, ig} from '../static';
 const styles = {
   root: {
     display: 'flex' as 'flex',
-    width: '100%',
+    width: '102%',
     backgroundColor: 'black' as 'black',
     height: '70px',
     position: 'relative' as 'relative',
+    marginLeft: '-8px',
+    marginTop: '-8px',
   },
   links: {
     flex: '1',
