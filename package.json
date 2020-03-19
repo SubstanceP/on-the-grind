@@ -1,5 +1,4 @@
 {
-  "homepage": "http://SubstanceP.github.io/on-the-grind",
   "name": "on-the-grind",
   "description": "Ecommerce site for otg and brand development",
   "version": "1.0.0",
@@ -12,9 +11,7 @@
     "dev": "next",
     "build": "NODE_ENV=production next build",
     "start": "next start -p $PORT",
-    "clean": "npm clean-install",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "clean": "npm clean-install"
   },
   "keywords": [],
   "author": "",
