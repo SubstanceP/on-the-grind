@@ -192,17 +192,6 @@ module.exports = __webpack_require__(/*! core-js/library/fn/set */ "core-js/libr
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/weak-map.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/weak-map.js ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/weak-map */ "core-js/library/fn/weak-map");
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/asyncToGenerator.js":
 /*!*************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/helpers/asyncToGenerator.js ***!
@@ -311,409 +300,32 @@ var _Object$getOwnPropertyDescriptor = __webpack_require__(/*! ../core-js/object
 
 var _Object$defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
 
-var _WeakMap = __webpack_require__(/*! ../core-js/weak-map */ "./node_modules/@babel/runtime-corejs2/core-js/weak-map.js");
-
-function _getRequireWildcardCache() {
-  if (typeof _WeakMap !== "function") return null;
-  var cache = new _WeakMap();
-
-  _getRequireWildcardCache = function _getRequireWildcardCache() {
-    return cache;
-  };
-
-  return cache;
-}
-
 function _interopRequireWildcard(obj) {
   if (obj && obj.__esModule) {
     return obj;
-  }
+  } else {
+    var newObj = {};
 
-  var cache = _getRequireWildcardCache();
+    if (obj != null) {
+      for (var key in obj) {
+        if (Object.prototype.hasOwnProperty.call(obj, key)) {
+          var desc = _Object$defineProperty && _Object$getOwnPropertyDescriptor ? _Object$getOwnPropertyDescriptor(obj, key) : {};
 
-  if (cache && cache.has(obj)) {
-    return cache.get(obj);
-  }
-
-  var newObj = {};
-
-  if (obj != null) {
-    var hasPropertyDescriptor = _Object$defineProperty && _Object$getOwnPropertyDescriptor;
-
-    for (var key in obj) {
-      if (Object.prototype.hasOwnProperty.call(obj, key)) {
-        var desc = hasPropertyDescriptor ? _Object$getOwnPropertyDescriptor(obj, key) : null;
-
-        if (desc && (desc.get || desc.set)) {
-          _Object$defineProperty(newObj, key, desc);
-        } else {
-          newObj[key] = obj[key];
+          if (desc.get || desc.set) {
+            _Object$defineProperty(newObj, key, desc);
+          } else {
+            newObj[key] = obj[key];
+          }
         }
       }
     }
+
+    newObj["default"] = obj;
+    return newObj;
   }
-
-  newObj["default"] = obj;
-
-  if (cache) {
-    cache.set(obj, newObj);
-  }
-
-  return newObj;
 }
 
 module.exports = _interopRequireWildcard;
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-plugin-loader.js?middleware=document-body-tags-server!./":
-/*!*****************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-plugin-loader.js?middleware=document-body-tags-server ***!
-  \*****************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-
-    
-
-    /* harmony default export */ __webpack_exports__["default"] = (function (ctx) {
-      return Promise.all([])
-    });
-  
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-plugin-loader.js?middleware=document-head-tags-server!./":
-/*!*****************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-plugin-loader.js?middleware=document-head-tags-server ***!
-  \*****************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-
-    
-
-    /* harmony default export */ __webpack_exports__["default"] = (function (ctx) {
-      return Promise.all([])
-    });
-  
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-plugin-loader.js?middleware=document-html-props-server!./":
-/*!******************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-plugin-loader.js?middleware=document-html-props-server ***!
-  \******************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-
-    
-
-    /* harmony default export */ __webpack_exports__["default"] = (function (ctx) {
-      return Promise.all([])
-    });
-  
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-plugin-loader.js?middleware=unstable-enhance-app-server!./":
-/*!*******************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-plugin-loader.js?middleware=unstable-enhance-app-server ***!
-  \*******************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-
-    
-
-    /* harmony default export */ __webpack_exports__["default"] = (function (ctx) {
-      return Promise.all([])
-    });
-  
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-plugin-loader.js?middleware=unstable-get-styles-server!./":
-/*!******************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-plugin-loader.js?middleware=unstable-get-styles-server ***!
-  \******************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-
-    
-
-    /* harmony default export */ __webpack_exports__["default"] = (function (ctx) {
-      return Promise.all([])
-    });
-  
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/next-server/lib/constants.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/next/dist/next-server/lib/constants.js ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-_Object$defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.PHASE_EXPORT = 'phase-export';
-exports.PHASE_PRODUCTION_BUILD = 'phase-production-build';
-exports.PHASE_PRODUCTION_SERVER = 'phase-production-server';
-exports.PHASE_DEVELOPMENT_SERVER = 'phase-development-server';
-exports.PAGES_MANIFEST = 'pages-manifest.json';
-exports.BUILD_MANIFEST = 'build-manifest.json';
-exports.PRERENDER_MANIFEST = 'prerender-manifest.json';
-exports.REACT_LOADABLE_MANIFEST = 'react-loadable-manifest.json';
-exports.SERVER_DIRECTORY = 'server';
-exports.SERVERLESS_DIRECTORY = 'serverless';
-exports.CONFIG_FILE = 'next.config.js';
-exports.BUILD_ID_FILE = 'BUILD_ID';
-exports.BLOCKED_PAGES = ['/_document', '/_app'];
-exports.CLIENT_PUBLIC_FILES_PATH = 'public';
-exports.CLIENT_STATIC_FILES_PATH = 'static';
-exports.CLIENT_STATIC_FILES_RUNTIME = 'runtime';
-exports.CLIENT_STATIC_FILES_RUNTIME_PATH = `${exports.CLIENT_STATIC_FILES_PATH}/${exports.CLIENT_STATIC_FILES_RUNTIME}`; // static/runtime/main.js
-
-exports.CLIENT_STATIC_FILES_RUNTIME_MAIN = `${exports.CLIENT_STATIC_FILES_RUNTIME_PATH}/main.js`; // static/runtime/amp.js
-
-exports.CLIENT_STATIC_FILES_RUNTIME_AMP = `${exports.CLIENT_STATIC_FILES_RUNTIME_PATH}/amp.js`; // static/runtime/webpack.js
-
-exports.CLIENT_STATIC_FILES_RUNTIME_WEBPACK = `${exports.CLIENT_STATIC_FILES_RUNTIME_PATH}/webpack.js`; // static/runtime/polyfills.js
-
-exports.CLIENT_STATIC_FILES_RUNTIME_POLYFILLS = `${exports.CLIENT_STATIC_FILES_RUNTIME_PATH}/polyfills.js`; // matches static/<buildid>/pages/<page>.js
-
-exports.IS_BUNDLED_PAGE_REGEX = /^static[/\\][^/\\]+[/\\]pages.*\.js$/; // matches static/<buildid>/pages/:page*.js
-
-exports.ROUTE_NAME_REGEX = /^static[/\\][^/\\]+[/\\]pages[/\\](.*)\.js$/;
-exports.SERVERLESS_ROUTE_NAME_REGEX = /^pages[/\\](.*)\.js$/;
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/next-server/lib/document-context.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/next/dist/next-server/lib/document-context.js ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-var __importStar = this && this.__importStar || function (mod) {
-  if (mod && mod.__esModule) return mod;
-  var result = {};
-  if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-  result["default"] = mod;
-  return result;
-};
-
-_Object$defineProperty(exports, "__esModule", {
-  value: true
-});
-
-const React = __importStar(__webpack_require__(/*! react */ "react"));
-
-exports.DocumentContext = React.createContext(null);
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/next-server/lib/utils.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/next/dist/next-server/lib/utils.js ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _Object$keys = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-_Object$defineProperty(exports, "__esModule", {
-  value: true
-});
-
-const url_1 = __webpack_require__(/*! url */ "url");
-/**
- * Utils
- */
-
-
-function execOnce(fn) {
-  let used = false;
-  let result = null;
-  return (...args) => {
-    if (!used) {
-      used = true;
-      result = fn.apply(this, args);
-    }
-
-    return result;
-  };
-}
-
-exports.execOnce = execOnce;
-
-function getLocationOrigin() {
-  const {
-    protocol,
-    hostname,
-    port
-  } = window.location;
-  return `${protocol}//${hostname}${port ? ':' + port : ''}`;
-}
-
-exports.getLocationOrigin = getLocationOrigin;
-
-function getURL() {
-  const {
-    href
-  } = window.location;
-  const origin = getLocationOrigin();
-  return href.substring(origin.length);
-}
-
-exports.getURL = getURL;
-
-function getDisplayName(Component) {
-  return typeof Component === 'string' ? Component : Component.displayName || Component.name || 'Unknown';
-}
-
-exports.getDisplayName = getDisplayName;
-
-function isResSent(res) {
-  return res.finished || res.headersSent;
-}
-
-exports.isResSent = isResSent;
-
-async function loadGetInitialProps(App, ctx) {
-  if (true) {
-    if (App.prototype && App.prototype.getInitialProps) {
-      const message = `"${getDisplayName(App)}.getInitialProps()" is defined as an instance method - visit https://err.sh/zeit/next.js/get-initial-props-as-an-instance-method for more information.`;
-      throw new Error(message);
-    }
-  } // when called from _app `ctx` is nested in `ctx`
-
-
-  const res = ctx.res || ctx.ctx && ctx.ctx.res;
-
-  if (!App.getInitialProps) {
-    if (ctx.ctx && ctx.Component) {
-      // @ts-ignore pageProps default
-      return {
-        pageProps: await loadGetInitialProps(ctx.Component, ctx.ctx)
-      };
-    }
-
-    return {};
-  }
-
-  const props = await App.getInitialProps(ctx);
-
-  if (res && isResSent(res)) {
-    return props;
-  }
-
-  if (!props) {
-    const message = `"${getDisplayName(App)}.getInitialProps()" should resolve to an object. But found "${props}" instead.`;
-    throw new Error(message);
-  }
-
-  if (true) {
-    if (_Object$keys(props).length === 0 && !ctx.ctx) {
-      console.warn(`${getDisplayName(App)} returned an empty object from \`getInitialProps\`. This de-optimizes and prevents automatic static optimization. https://err.sh/zeit/next.js/empty-object-getInitialProps`);
-    }
-  }
-
-  return props;
-}
-
-exports.loadGetInitialProps = loadGetInitialProps;
-exports.urlObjectKeys = ['auth', 'hash', 'host', 'hostname', 'href', 'path', 'pathname', 'port', 'protocol', 'query', 'search', 'slashes'];
-
-function formatWithValidation(url, options) {
-  if (true) {
-    if (url !== null && typeof url === 'object') {
-      _Object$keys(url).forEach(key => {
-        if (exports.urlObjectKeys.indexOf(key) === -1) {
-          console.warn(`Unknown key passed via urlObject into url.format: ${key}`);
-        }
-      });
-    }
-  }
-
-  return url_1.format(url, options);
-}
-
-exports.formatWithValidation = formatWithValidation;
-exports.SUPPORTS_PERFORMANCE = typeof performance !== 'undefined';
-exports.SUPPORTS_PERFORMANCE_USER_TIMING = exports.SUPPORTS_PERFORMANCE && typeof performance.mark === 'function' && typeof performance.measure === 'function';
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/next-server/server/utils.js":
-/*!************************************************************!*\
-  !*** ./node_modules/next/dist/next-server/server/utils.js ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const constants_1 = __webpack_require__(/*! ../lib/constants */ "./node_modules/next/dist/next-server/lib/constants.js");
-const internalPrefixes = [/^\/_next\//, /^\/static\//];
-function isInternalUrl(url) {
-    for (const prefix of internalPrefixes) {
-        if (prefix.test(url)) {
-            return true;
-        }
-    }
-    return false;
-}
-exports.isInternalUrl = isInternalUrl;
-function isBlockedPage(pathname) {
-    return constants_1.BLOCKED_PAGES.indexOf(pathname) !== -1;
-}
-exports.isBlockedPage = isBlockedPage;
-function cleanAmpPath(pathname) {
-    if (pathname.match(/\?amp=(y|yes|true|1)/)) {
-        pathname = pathname.replace(/\?amp=(y|yes|true|1)/, '?');
-    }
-    if (pathname.match(/&amp=(y|yes|true|1)/)) {
-        pathname = pathname.replace(/\?amp=(y|yes|true|1)/, '');
-    }
-    pathname = pathname.replace(/\?$/, '');
-    return pathname;
-}
-exports.cleanAmpPath = cleanAmpPath;
-
 
 /***/ }),
 
@@ -753,9 +365,9 @@ var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "p
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
-var _utils = __webpack_require__(/*! ../next-server/server/utils */ "./node_modules/next/dist/next-server/server/utils.js");
+var _utils = __webpack_require__(/*! next-server/dist/server/utils */ "next-server/dist/server/utils");
 
-var _utils2 = __webpack_require__(/*! ../next-server/lib/utils */ "./node_modules/next/dist/next-server/lib/utils.js");
+var _utils2 = __webpack_require__(/*! next-server/dist/lib/utils */ "next-server/dist/lib/utils");
 
 exports.DocumentContext = _utils2.DocumentContext;
 exports.DocumentInitialProps = _utils2.DocumentInitialProps;
@@ -765,24 +377,8 @@ var _htmlescape = __webpack_require__(/*! ../server/htmlescape */ "./node_module
 
 var _server = _interopRequireDefault(__webpack_require__(/*! styled-jsx/server */ "styled-jsx/server"));
 
-var _constants = __webpack_require__(/*! ../next-server/lib/constants */ "./node_modules/next/dist/next-server/lib/constants.js");
-
-var _documentContext = __webpack_require__(/*! ../next-server/lib/document-context */ "./node_modules/next/dist/next-server/lib/document-context.js");
-
-var _nextPluginLoaderMiddlewareDocumentHeadTagsServer = _interopRequireDefault(__webpack_require__(/*! next-plugin-loader?middleware=document-head-tags-server */ "./node_modules/next/dist/build/webpack/loaders/next-plugin-loader.js?middleware=document-head-tags-server!./"));
-
-var _nextPluginLoaderMiddlewareDocumentBodyTagsServer = _interopRequireDefault(__webpack_require__(/*! next-plugin-loader?middleware=document-body-tags-server */ "./node_modules/next/dist/build/webpack/loaders/next-plugin-loader.js?middleware=document-body-tags-server!./"));
-
-var _nextPluginLoaderMiddlewareDocumentHtmlPropsServer = _interopRequireDefault(__webpack_require__(/*! next-plugin-loader?middleware=document-html-props-server */ "./node_modules/next/dist/build/webpack/loaders/next-plugin-loader.js?middleware=document-html-props-server!./"));
-
-var _nextPluginLoaderMiddlewareUnstableEnhanceAppServer = _interopRequireDefault(__webpack_require__(/*! next-plugin-loader?middleware=unstable-enhance-app-server */ "./node_modules/next/dist/build/webpack/loaders/next-plugin-loader.js?middleware=unstable-enhance-app-server!./"));
-
-var _nextPluginLoaderMiddlewareUnstableGetStylesServer = _interopRequireDefault(__webpack_require__(/*! next-plugin-loader?middleware=unstable-get-styles-server */ "./node_modules/next/dist/build/webpack/loaders/next-plugin-loader.js?middleware=unstable-get-styles-server!./"));
+var _constants = __webpack_require__(/*! next-server/constants */ "next-server/constants");
 /* eslint-disable */
-// @ts-ignore
-// @ts-ignore
-// @ts-ignore
-// @ts-ignore
 
 
 function middleware(_x) {
@@ -791,7 +387,7 @@ function middleware(_x) {
 
 function _middleware() {
   _middleware = (0, _asyncToGenerator2.default)(function* (_ref) {
-    var {
+    let {
       req,
       res
     } = _ref;
@@ -800,10 +396,10 @@ function _middleware() {
 }
 
 function dedupe(bundles) {
-  var files = new _set.default();
-  var kept = [];
+  const files = new _set.default();
+  const kept = [];
 
-  for (var bundle of bundles) {
+  for (const bundle of bundles) {
     if (files.has(bundle.file)) continue;
     files.add(bundle.file);
     kept.push(bundle);
@@ -824,30 +420,22 @@ function getOptionalModernScriptVariant(path) {
 
 
 class Document extends _react.Component {
-  /**
-  * `getInitialProps` hook returns the context object with the addition of `renderPage`.
-  * `renderPage` callback executes `React` rendering logic synchronously to support server-rendering wrappers
-  */
-  static getInitialProps(ctx) {
+  constructor() {
+    super(...arguments);
+    this.context = void 0;
+  }
+
+  static getInitialProps(_ref2) {
     return (0, _asyncToGenerator2.default)(function* () {
-      var enhancers = yield (0, _nextPluginLoaderMiddlewareUnstableEnhanceAppServer.default)(ctx);
-
-      var enhanceApp = App => {
-        for (var enhancer of enhancers) {
-          App = enhancer(App);
-        }
-
-        return props => _react.default.createElement(App, props);
-      };
-
-      var {
+      let {
+        renderPage
+      } = _ref2;
+      const {
         html,
         head,
         dataOnly
-      } = yield ctx.renderPage({
-        enhanceApp
-      });
-      var styles = [...(0, _server.default)(), ...(yield (0, _nextPluginLoaderMiddlewareUnstableGetStylesServer.default)(ctx))];
+      } = yield renderPage();
+      const styles = (0, _server.default)();
       return {
         html,
         head,
@@ -857,16 +445,14 @@ class Document extends _react.Component {
     })();
   }
 
-  static renderDocument(Document, props) {
-    return _react.default.createElement(_documentContext.DocumentContext.Provider, {
-      value: {
-        _documentProps: props,
-        // In dev we invalidate the cache by appending a timestamp to the resource URL.
-        // This is a workaround to fix https://github.com/zeit/next.js/issues/5860
-        // TODO: remove this workaround when https://bugs.webkit.org/show_bug.cgi?id=187726 is fixed.
-        _devOnlyInvalidateCacheQueryString:  true ? '?ts=' + (0, _now.default)() : undefined
-      }
-    }, _react.default.createElement(Document, props));
+  getChildContext() {
+    return {
+      _documentProps: this.props,
+      // In dev we invalidate the cache by appending a timestamp to the resource URL.
+      // This is a workaround to fix https://github.com/zeit/next.js/issues/5860
+      // TODO: remove this workaround when https://bugs.webkit.org/show_bug.cgi?id=187726 is fixed.
+      _devOnlyInvalidateCacheQueryString:  true ? '?ts=' + (0, _now.default)() : undefined
+    };
   }
 
   render() {
@@ -876,9 +462,15 @@ class Document extends _react.Component {
 }
 
 exports.default = Document;
-Document.headTagsMiddleware = _nextPluginLoaderMiddlewareDocumentHeadTagsServer.default;
-Document.bodyTagsMiddleware = _nextPluginLoaderMiddlewareDocumentBodyTagsServer.default;
-Document.htmlPropsMiddleware = _nextPluginLoaderMiddlewareDocumentHtmlPropsServer.default;
+Document.childContextTypes = {
+  _documentProps: _propTypes.default.any,
+  _devOnlyInvalidateCacheQueryString: _propTypes.default.string
+  /**
+  * `getInitialProps` hook returns the context object with the addition of `renderPage`.
+  * `renderPage` callback executes `React` rendering logic synchronously to support server-rendering wrappers
+  */
+
+};
 
 class Html extends _react.Component {
   constructor() {
@@ -887,20 +479,20 @@ class Html extends _react.Component {
   }
 
   render() {
-    var {
-      inAmpMode,
-      htmlProps
+    const {
+      inAmpMode
     } = this.context._documentProps;
-    return _react.default.createElement("html", (0, _extends2.default)({}, htmlProps, this.props, {
-      amp: inAmpMode ? '' : undefined,
-      "data-ampdevmode": inAmpMode && "development" !== 'production' ? '' : undefined
+    return _react.default.createElement("html", (0, _extends2.default)({}, this.props, {
+      amp: inAmpMode ? '' : undefined
     }));
   }
 
 }
 
 exports.Html = Html;
-Html.contextType = _documentContext.DocumentContext;
+Html.contextTypes = {
+  _documentProps: _propTypes.default.any
+};
 Html.propTypes = {
   children: _propTypes.default.node.isRequired
 };
@@ -912,37 +504,37 @@ class Head extends _react.Component {
   }
 
   getCssLinks() {
-    var {
+    const {
       assetPrefix,
       files
     } = this.context._documentProps;
-    var cssFiles = files && files.length ? files.filter(f => /\.css$/.test(f)) : [];
-    var cssLinkElements = [];
-    cssFiles.forEach(file => {
-      cssLinkElements.push(_react.default.createElement("link", {
-        key: "${file}-preload",
-        nonce: this.props.nonce,
-        rel: "preload",
-        href: assetPrefix + "/_next/" + encodeURI(file),
-        as: "style",
-        crossOrigin: this.props.crossOrigin || undefined
-      }), _react.default.createElement("link", {
+
+    if (!files || files.length === 0) {
+      return null;
+    }
+
+    return files.map(file => {
+      // Only render .css files here
+      if (!/\.css$/.exec(file)) {
+        return null;
+      }
+
+      return _react.default.createElement("link", {
         key: file,
         nonce: this.props.nonce,
         rel: "stylesheet",
-        href: assetPrefix + "/_next/" + encodeURI(file),
+        href: assetPrefix + "/_next/" + file,
         crossOrigin: this.props.crossOrigin || undefined
-      }));
+      });
     });
-    return cssLinkElements.length === 0 ? null : cssLinkElements;
   }
 
   getPreloadDynamicChunks() {
-    var {
+    const {
       dynamicImports,
       assetPrefix
     } = this.context._documentProps;
-    var {
+    const {
       _devOnlyInvalidateCacheQueryString
     } = this.context;
     return dedupe(dynamicImports).map(bundle => {
@@ -956,7 +548,7 @@ class Head extends _react.Component {
       return _react.default.createElement("link", {
         rel: "preload",
         key: bundle.file,
-        href: assetPrefix + "/_next/" + encodeURI(bundle.file) + _devOnlyInvalidateCacheQueryString,
+        href: assetPrefix + "/_next/" + bundle.file + _devOnlyInvalidateCacheQueryString,
         as: "script",
         nonce: this.props.nonce,
         crossOrigin: this.props.crossOrigin || undefined
@@ -966,36 +558,40 @@ class Head extends _react.Component {
   }
 
   getPreloadMainLinks() {
-    var {
+    const {
       assetPrefix,
       files
     } = this.context._documentProps;
-    var {
+
+    if (!files || files.length === 0) {
+      return null;
+    }
+
+    const {
       _devOnlyInvalidateCacheQueryString
     } = this.context;
-    var preloadFiles = files && files.length ? files.filter(file => {
-      // `dynamicImports` will contain both `.js` and `.module.js` when
-      // the feature is enabled. This clause will filter down to the
-      // modern variants only.
-      //
-      // Also filter out _buildManifest because it should not be
-      // preloaded for performance reasons.
-      return file.endsWith(getOptionalModernScriptVariant('.js')) && !file.includes('_buildManifest');
-    }) : [];
-    return preloadFiles.length === 0 ? null : preloadFiles.map(file => {
+    return files.map(file => {
+      // `dynamicImports` will contain both `.js` and `.module.js` when the
+      // feature is enabled. This clause will filter down to the modern
+      // variants only.
+      // This also filters out non-JS assets.
+      if (!file.endsWith(getOptionalModernScriptVariant('.js'))) {
+        return null;
+      }
+
       return _react.default.createElement("link", {
         key: file,
         nonce: this.props.nonce,
         rel: "preload",
-        href: assetPrefix + "/_next/" + encodeURI(file) + _devOnlyInvalidateCacheQueryString,
+        href: assetPrefix + "/_next/" + file + _devOnlyInvalidateCacheQueryString,
         as: "script",
         crossOrigin: this.props.crossOrigin || undefined
       });
-    });
+    }).filter(Boolean);
   }
 
   render() {
-    var {
+    const {
       styles,
       ampPath,
       inAmpMode,
@@ -1003,24 +599,23 @@ class Head extends _react.Component {
       hybridAmp,
       canonicalBase,
       __NEXT_DATA__,
-      dangerousAsPath,
-      headTags
+      dangerousAsPath
     } = this.context._documentProps;
-    var {
+    const {
       _devOnlyInvalidateCacheQueryString
     } = this.context;
-    var {
+    const {
       page,
       buildId
     } = __NEXT_DATA__;
-    var {
+    let {
       head
     } = this.context._documentProps;
-    var children = this.props.children; // show a warning if Head contains <title> (only in development)
+    let children = this.props.children; // show a warning if Head contains <title> (only in development)
 
     if (true) {
       children = _react.default.Children.map(children, child => {
-        var isReactHelmet = child && child.props && child.props['data-react-helmet'];
+        const isReactHelmet = child && child.props && child.props['data-react-helmet'];
 
         if (child && child.type === 'title' && !isReactHelmet) {
           console.warn("Warning: <title> should not be used in _document.js's <Head>. https://err.sh/next.js/no-document-title");
@@ -1031,57 +626,51 @@ class Head extends _react.Component {
       if (this.props.crossOrigin) console.warn('Warning: `Head` attribute `crossOrigin` is deprecated. https://err.sh/next.js/doc-crossorigin-deprecated');
     }
 
-    var hasAmphtmlRel = false;
-    var hasCanonicalRel = false; // show warning and remove conflicting amp head tags
+    let hasAmphtmlRel = false;
+    let hasCanonicalRel = false; // show warning and remove conflicting amp head tags
 
-    head = _react.default.Children.map(head || [], child => {
+    head = !inAmpMode ? head : _react.default.Children.map(head || [], child => {
       if (!child) return child;
-      var {
+      const {
         type,
         props
       } = child;
+      let badProp = '';
 
-      if (inAmpMode) {
-        var badProp = '';
+      if (type === 'meta' && props.name === 'viewport') {
+        badProp = 'name="viewport"';
+      } else if (type === 'link' && props.rel === 'canonical') {
+        hasCanonicalRel = true;
+      } else if (type === 'link' && props.rel === 'amphtml') {
+        hasAmphtmlRel = true;
+      } else if (type === 'script') {
+        // only block if
+        // 1. it has a src and isn't pointing to ampproject's CDN
+        // 2. it is using dangerouslySetInnerHTML without a type or
+        // a type of text/javascript
+        if (props.src && props.src.indexOf('ampproject') < -1 || props.dangerouslySetInnerHTML && (!props.type || props.type === 'text/javascript')) {
+          badProp = '<script';
+          (0, _keys.default)(props).forEach(prop => {
+            badProp += " " + prop + "=\"" + props[prop] + "\"";
+          });
+          badProp += '/>';
+        }
+      }
 
-        if (type === 'meta' && props.name === 'viewport') {
-          badProp = 'name="viewport"';
-        } else if (type === 'link' && props.rel === 'canonical') {
-          hasCanonicalRel = true;
-        } else if (type === 'script') {
-          // only block if
-          // 1. it has a src and isn't pointing to ampproject's CDN
-          // 2. it is using dangerouslySetInnerHTML without a type or
-          // a type of text/javascript
-          if (props.src && props.src.indexOf('ampproject') < -1 || props.dangerouslySetInnerHTML && (!props.type || props.type === 'text/javascript')) {
-            badProp = '<script';
-            (0, _keys.default)(props).forEach(prop => {
-              badProp += " " + prop + "=\"" + props[prop] + "\"";
-            });
-            badProp += '/>';
-          }
-        }
-
-        if (badProp) {
-          console.warn("Found conflicting amp tag \"" + child.type + "\" with conflicting prop " + badProp + " in " + __NEXT_DATA__.page + ". https://err.sh/next.js/conflicting-amp-tag");
-          return null;
-        }
-      } else {
-        // non-amp mode
-        if (type === 'link' && props.rel === 'amphtml') {
-          hasAmphtmlRel = true;
-        }
+      if (badProp) {
+        console.warn("Found conflicting amp tag \"" + child.type + "\" with conflicting prop " + badProp + " in " + __NEXT_DATA__.page + ". https://err.sh/next.js/conflicting-amp-tag");
+        return null;
       }
 
       return child;
     }); // try to parse styles from fragment for backwards compat
 
-    var curStyles = (0, _isArray.default)(styles) ? styles : [];
+    const curStyles = (0, _isArray.default)(styles) ? styles : [];
 
     if (inAmpMode && styles && // @ts-ignore Property 'props' does not exist on type ReactElement
     styles.props && // @ts-ignore Property 'props' does not exist on type ReactElement
     (0, _isArray.default)(styles.props.children)) {
-      var hasStyles = el => el && el.props && el.props.dangerouslySetInnerHTML && el.props.dangerouslySetInnerHTML.__html; // @ts-ignore Property 'props' does not exist on type ReactElement
+      const hasStyles = el => el && el.props && el.props.dangerouslySetInnerHTML && el.props.dangerouslySetInnerHTML.__html; // @ts-ignore Property 'props' does not exist on type ReactElement
 
 
       styles.props.children.map(child => {
@@ -1093,18 +682,7 @@ class Head extends _react.Component {
       });
     }
 
-    return _react.default.createElement("head", this.props, this.context._documentProps.isDevelopment && this.context._documentProps.hasCssMode && _react.default.createElement(_react.default.Fragment, null, _react.default.createElement("style", {
-      "data-next-hide-fouc": true,
-      dangerouslySetInnerHTML: {
-        __html: "body{display:none}"
-      }
-    }), _react.default.createElement("noscript", {
-      "data-next-hide-fouc": true
-    }, _react.default.createElement("style", {
-      dangerouslySetInnerHTML: {
-        __html: "body{display:block}"
-      }
-    }))), children, head, _react.default.createElement("meta", {
+    return _react.default.createElement("head", this.props, children, head, _react.default.createElement("meta", {
       name: "next-head-count",
       content: _react.default.Children.count(head || []).toString()
     }), inAmpMode && _react.default.createElement(_react.default.Fragment, null, _react.default.createElement("meta", {
@@ -1140,28 +718,26 @@ class Head extends _react.Component {
       href: canonicalBase + getAmpPath(ampPath, dangerousAsPath)
     }), page !== '/_error' && _react.default.createElement("link", {
       rel: "preload",
-      href: assetPrefix + getOptionalModernScriptVariant(encodeURI("/_next/static/" + buildId + "/pages" + getPageFile(page))) + _devOnlyInvalidateCacheQueryString,
+      href: assetPrefix + getOptionalModernScriptVariant("/_next/static/" + buildId + "/pages" + getPageFile(page)) + _devOnlyInvalidateCacheQueryString,
       as: "script",
       nonce: this.props.nonce,
       crossOrigin: this.props.crossOrigin || undefined
     }), _react.default.createElement("link", {
       rel: "preload",
-      href: assetPrefix + getOptionalModernScriptVariant(encodeURI("/_next/static/" + buildId + "/pages/_app.js")) + _devOnlyInvalidateCacheQueryString,
+      href: assetPrefix + getOptionalModernScriptVariant("/_next/static/" + buildId + "/pages/_app.js") + _devOnlyInvalidateCacheQueryString,
       as: "script",
       nonce: this.props.nonce,
       crossOrigin: this.props.crossOrigin || undefined
-    }), this.getPreloadDynamicChunks(), this.getPreloadMainLinks(), this.context._documentProps.isDevelopment && this.context._documentProps.hasCssMode && // this element is used to mount development styles so the
-    // ordering matches production
-    // (by default, style-loader injects at the bottom of <head />)
-    _react.default.createElement("noscript", {
-      id: "__next_css__DO_NOT_USE__"
-    }), this.getCssLinks(), styles || null), _react.default.createElement(_react.default.Fragment, {}, ...(headTags || [])));
+    }), this.getPreloadDynamicChunks(), this.getPreloadMainLinks(), this.getCssLinks(), styles || null));
   }
 
 }
 
 exports.Head = Head;
-Head.contextType = _documentContext.DocumentContext;
+Head.contextTypes = {
+  _documentProps: _propTypes.default.any,
+  _devOnlyInvalidateCacheQueryString: _propTypes.default.string
+};
 Head.propTypes = {
   nonce: _propTypes.default.string,
   crossOrigin: _propTypes.default.string
@@ -1174,7 +750,7 @@ class Main extends _react.Component {
   }
 
   render() {
-    var {
+    const {
       inAmpMode,
       html
     } = this.context._documentProps;
@@ -1190,7 +766,10 @@ class Main extends _react.Component {
 }
 
 exports.Main = Main;
-Main.contextType = _documentContext.DocumentContext;
+Main.contextTypes = {
+  _documentProps: _propTypes.default.any,
+  _devOnlyInvalidateCacheQueryString: _propTypes.default.string
+};
 
 class NextScript extends _react.Component {
   constructor() {
@@ -1199,25 +778,22 @@ class NextScript extends _react.Component {
   }
 
   getDynamicChunks() {
-    var {
+    const {
       dynamicImports,
-      assetPrefix,
-      files
+      assetPrefix
     } = this.context._documentProps;
-    var {
+    const {
       _devOnlyInvalidateCacheQueryString
     } = this.context;
     return dedupe(dynamicImports).map(bundle => {
-      var modernProps = {};
+      let modernProps = {};
 
       if (false) {}
 
-      if (!/\.js$/.test(bundle.file) || files.includes(bundle.file)) return null;
       return _react.default.createElement("script", (0, _extends2.default)({
-        defer: false,
-        async: !false,
+        async: true,
         key: bundle.file,
-        src: assetPrefix + "/_next/" + encodeURI(bundle.file) + _devOnlyInvalidateCacheQueryString,
+        src: assetPrefix + "/_next/" + bundle.file + _devOnlyInvalidateCacheQueryString,
         nonce: this.props.nonce,
         crossOrigin: this.props.crossOrigin || undefined
       }, modernProps));
@@ -1225,7 +801,7 @@ class NextScript extends _react.Component {
   }
 
   getScripts() {
-    var {
+    const {
       assetPrefix,
       files
     } = this.context._documentProps;
@@ -1234,56 +810,36 @@ class NextScript extends _react.Component {
       return null;
     }
 
-    var {
+    const {
       _devOnlyInvalidateCacheQueryString
     } = this.context;
     return files.map(file => {
       // Only render .js files here
-      if (!/\.js$/.test(file)) {
+      if (!/\.js$/.exec(file)) {
         return null;
       }
 
-      var modernProps = {};
+      let modernProps = {};
 
       if (false) {}
 
       return _react.default.createElement("script", (0, _extends2.default)({
         key: file,
-        src: assetPrefix + "/_next/" + encodeURI(file) + _devOnlyInvalidateCacheQueryString,
+        src: assetPrefix + "/_next/" + file + _devOnlyInvalidateCacheQueryString,
         nonce: this.props.nonce,
-        defer: false,
-        async: !false,
+        async: true,
         crossOrigin: this.props.crossOrigin || undefined
       }, modernProps));
     });
   }
 
-  getPolyfillScripts() {
-    // polyfills.js has to be rendered as nomodule without async
-    // It also has to be the first script to load
-    var {
-      assetPrefix,
-      polyfillFiles
-    } = this.context._documentProps;
-    var {
-      _devOnlyInvalidateCacheQueryString
-    } = this.context;
-    return polyfillFiles.filter(polyfill => !/\.module\.js$/.test(polyfill)).map(polyfill => _react.default.createElement("script", {
-      key: polyfill,
-      nonce: this.props.nonce,
-      crossOrigin: this.props.crossOrigin || undefined,
-      noModule: true,
-      src: assetPrefix + "/_next/" + polyfill + _devOnlyInvalidateCacheQueryString
-    }));
-  }
-
   static getInlineScriptSource(documentProps) {
-    var {
+    const {
       __NEXT_DATA__
     } = documentProps;
 
     try {
-      var data = (0, _stringify.default)(__NEXT_DATA__);
+      const data = (0, _stringify.default)(__NEXT_DATA__);
       return (0, _htmlescape.htmlEscapeJsonString)(data);
     } catch (err) {
       if (err.message.indexOf('circular structure')) {
@@ -1295,23 +851,21 @@ class NextScript extends _react.Component {
   }
 
   render() {
-    var {
+    const {
       staticMarkup,
       assetPrefix,
       inAmpMode,
       devFiles,
-      __NEXT_DATA__,
-      bodyTags
+      __NEXT_DATA__
     } = this.context._documentProps;
-    var deferScripts = false;
-    var {
+    const {
       _devOnlyInvalidateCacheQueryString
     } = this.context;
 
     if (inAmpMode) {
       if (false) {}
 
-      var _devFiles = [_constants.CLIENT_STATIC_FILES_RUNTIME_AMP, _constants.CLIENT_STATIC_FILES_RUNTIME_WEBPACK];
+      const devFiles = [_constants.CLIENT_STATIC_FILES_RUNTIME_AMP, _constants.CLIENT_STATIC_FILES_RUNTIME_WEBPACK];
       return _react.default.createElement(_react.default.Fragment, null, staticMarkup ? null : _react.default.createElement("script", {
         id: "__NEXT_DATA__",
         type: "application/json",
@@ -1320,17 +874,17 @@ class NextScript extends _react.Component {
         dangerouslySetInnerHTML: {
           __html: NextScript.getInlineScriptSource(this.context._documentProps)
         },
-        "data-ampdevmode": true
-      }), _devFiles ? _devFiles.map(file => _react.default.createElement("script", {
+        "data-amp-development-mode-only": true
+      }), devFiles ? devFiles.map(file => _react.default.createElement("script", {
         key: file,
         src: assetPrefix + "/_next/" + file + _devOnlyInvalidateCacheQueryString,
         nonce: this.props.nonce,
         crossOrigin: this.props.crossOrigin || undefined,
-        "data-ampdevmode": true
-      })) : null, _react.default.createElement(_react.default.Fragment, {}, ...(bodyTags || [])));
+        "data-amp-development-mode-only": true
+      })) : null);
     }
 
-    var {
+    const {
       page,
       buildId
     } = __NEXT_DATA__;
@@ -1339,18 +893,16 @@ class NextScript extends _react.Component {
       if (this.props.crossOrigin) console.warn('Warning: `NextScript` attribute `crossOrigin` is deprecated. https://err.sh/next.js/doc-crossorigin-deprecated');
     }
 
-    var pageScript = [_react.default.createElement("script", (0, _extends2.default)({
-      defer: deferScripts,
-      async: !deferScripts,
+    const pageScript = [_react.default.createElement("script", (0, _extends2.default)({
+      async: true,
       "data-next-page": page,
       key: page,
-      src: assetPrefix + encodeURI("/_next/static/" + buildId + "/pages" + getPageFile(page)) + _devOnlyInvalidateCacheQueryString,
+      src: assetPrefix + ("/_next/static/" + buildId + "/pages" + getPageFile(page)) + _devOnlyInvalidateCacheQueryString,
       nonce: this.props.nonce,
       crossOrigin: this.props.crossOrigin || undefined
     },  false ? undefined : {})),  false && false];
-    var appScript = [_react.default.createElement("script", (0, _extends2.default)({
-      defer: deferScripts,
-      async: !deferScripts,
+    const appScript = [_react.default.createElement("script", (0, _extends2.default)({
+      async: true,
       "data-next-page": "/_app",
       src: assetPrefix + ("/_next/static/" + buildId + "/pages/_app.js") + _devOnlyInvalidateCacheQueryString,
       key: "_app",
@@ -1359,7 +911,7 @@ class NextScript extends _react.Component {
     },  false ? undefined : {})),  false && false];
     return _react.default.createElement(_react.default.Fragment, null, devFiles ? devFiles.map(file => !file.match(/\.js\.map/) && _react.default.createElement("script", {
       key: file,
-      src: assetPrefix + "/_next/" + encodeURI(file) + _devOnlyInvalidateCacheQueryString,
+      src: assetPrefix + "/_next/" + file + _devOnlyInvalidateCacheQueryString,
       nonce: this.props.nonce,
       crossOrigin: this.props.crossOrigin || undefined
     })) : null, staticMarkup ? null : _react.default.createElement("script", {
@@ -1370,13 +922,16 @@ class NextScript extends _react.Component {
       dangerouslySetInnerHTML: {
         __html: NextScript.getInlineScriptSource(this.context._documentProps)
       }
-    }),  false ? undefined : null, this.getPolyfillScripts(), page !== '/_error' && pageScript, appScript, staticMarkup ? null : this.getDynamicChunks(), staticMarkup ? null : this.getScripts(), _react.default.createElement(_react.default.Fragment, {}, ...(bodyTags || [])));
+    }),  false ? undefined : null, page !== '/_error' && pageScript, appScript, staticMarkup ? null : this.getDynamicChunks(), staticMarkup ? null : this.getScripts());
   }
 
 }
 
 exports.NextScript = NextScript;
-NextScript.contextType = _documentContext.DocumentContext;
+NextScript.contextTypes = {
+  _documentProps: _propTypes.default.any,
+  _devOnlyInvalidateCacheQueryString: _propTypes.default.string
+};
 NextScript.propTypes = {
   nonce: _propTypes.default.string,
   crossOrigin: _propTypes.default.string
@@ -1522,14 +1077,36 @@ module.exports = require("core-js/library/fn/set");
 
 /***/ }),
 
-/***/ "core-js/library/fn/weak-map":
-/*!**********************************************!*\
-  !*** external "core-js/library/fn/weak-map" ***!
-  \**********************************************/
+/***/ "next-server/constants":
+/*!****************************************!*\
+  !*** external "next-server/constants" ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("core-js/library/fn/weak-map");
+module.exports = require("next-server/constants");
+
+/***/ }),
+
+/***/ "next-server/dist/lib/utils":
+/*!*********************************************!*\
+  !*** external "next-server/dist/lib/utils" ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next-server/dist/lib/utils");
+
+/***/ }),
+
+/***/ "next-server/dist/server/utils":
+/*!************************************************!*\
+  !*** external "next-server/dist/server/utils" ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next-server/dist/server/utils");
 
 /***/ }),
 
@@ -1563,17 +1140,6 @@ module.exports = require("react");
 /***/ (function(module, exports) {
 
 module.exports = require("styled-jsx/server");
-
-/***/ }),
-
-/***/ "url":
-/*!**********************!*\
-  !*** external "url" ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("url");
 
 /***/ })
 

@@ -1,10 +1,14 @@
 {
   "devFiles": [
-    "static/development/dll/dll_90e8ea1802b868f0c448.js",
-    "static/development/dll/dll_90e8ea1802b868f0c448.js.map"
+    "static/development/dll/dll_9e2a3f9838424feeb96c.js",
+    "static/development/dll/dll_9e2a3f9838424feeb96c.js.map"
   ],
   "pages": {
     "/": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/Shop": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -16,11 +20,11 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/_polyfills": [
-      "static/runtime/polyfills.js",
-      "static/runtime/polyfills.js.map"
-    ],
     "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/next/dist/pages/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
